@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang=" en" >
+<head>
+  <meta charset="UTF-8">
+<title>TRUMP</title>
+<meta name="title" content="$TRUMP " />
+<meta name="description" content="$Trump | Launched!" />
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="assets\favicoinn.png" rel="icon">
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" href="./css/aos.css" />
+<link rel="stylesheet" href="./css/brands.css" />
+
+</head>
+
+<body>
+
+
+
+  <div class="overlay" id="overlay" style="opacity: 0"></div>
+
+	<div class="window" id="modal" data-aos="fade-up" data-aos-duration="500">
+		<div id="header">
+			<div id="search-bar">
+				<p>www.trumponlylaunchonpumpfun.com/tokenomics</p>
+			</div>
+			<div id="buttons">
+				<div class="modalBtn" id="minimize"><span>_</span></div>
+				<div class="modalBtn"><span>
+					<svg viewBox="0 0 512 512" width="65%" title="square-full">
+  <path d="M512 512H0V0h512v512z" fill="#212121" />
+</svg></span></div>
+				<div class="modalBtn" id="closeModal"><span>X</span></div>
+			</div>
+		</div>
+		<section id="main-content">
+			<div id="main-img">
+				<img src="assets\trump.png"/>
+			</div>
+			<div id="main-text">
+				<p class="modalHeader">Liquidity</p>
+					<div class="counterStyle">
+						<div class="counterStyle2">
+              <span>%</span>
+						</div>
+					</div>
+	
+
+				<p class="modalHeader">Airdrop</p>
+
+				<div class="counterStyle">
+					<div class="counterStyle2">
+          <span>%</span>
+					</div>
+				</div>
+				<p class="modalHeader">Treasury</p>
+
+				<div class="counterStyle">
+					<div class="counterStyle2">
+          <span>%</span>
+					</div>
+				</div>
+
+			
+			</div>
+		</section>
+	</div>
+  
+
+
+  <!-- <nav data-aos="fade-left" data-aos-duration="1200"> 
+    <div class="navContainer">
+    <h3>
+      <a href="https://t.me/SymbolOfLuck">
+        Contact
+      </a>
+    </h3>
+    <h3>
+      <a href="./raydium.html">
+        Buy
+      </a> 
+    </h3>
+    <h3>
+   <a href="./modal.html">
+        About
+      </a>
+    </h3>
+    <h3 class="navSelected">
+      <a href="./index.html">
+        Home
+      </a>
+    </h3>
+  </div>
+  </nav> -->
+
+
+  
+  <img src="assets\trump.png"
+  class="sol"
+  srcset="assets\trump.png 230w,
+          assets/trump.png 370w,
+          assets/trump.png 432w,
+          assets/trump.png 555w"
+  sizes="(max-width: 480px) 230px,
+         (max-width: 1920px) 370px,
+         (max-width: 2560px) 432px,
+         555px"
+  alt="SOL Logo"
+  data-aos="zoom-out" data-aos-duration="1200">
+
+
+  <div class="header-container">
+    <ul class="icon-list"data-aos="fade-up" data-aos-duration="1200">
+      <li>
+        <a target="_blank" href="https://x.com/Moon_trumpp">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </li>
+    </ul>
+    
+    <h2 id="solana"data-aos="fade-up" data-aos-duration="1200">$TRUMP</h2>
+
+    <ul class="icon-list"data-aos="fade-up" data-aos-duration="1200">
+      <li>
+        <a href="https://t.me/trump_moon" target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="wrapper" >
+    <!-- <h1 id="comingSoon"data-aos="fade-up" data-aos-duration="1200">$OL</h1> -->
+    <div class="buyBtn" >
+      <a href = "https://t.me/trump_moon" target="_blank" class="btn" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" >
+        <span class="left icon">
+          <img src="assets\favicoinn.png">
+        </span>
+        <span class="right title">Buy $Trump</span>
+      </a> 
+      <a href="https://dexscreener.com/solana/3wkzqdh3zw3tp2phataudu4e1xsezfhk7qnn8mapm3s2" target="_blank" class="btn" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+        <span class="left icon">
+          <img src="assets\pump.png">
+        </span>
+        <span class="right title">View Pump.fun</span>
+      </a> 
+
+      <a href="#" class="btn" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+        <span class="left icon">
+          <img src="assets/question.png">
+        </span>
+        <span class="right title" id="openModal">Tokenomics</span>
+      </a> 
+    </div>
+
+
+  </div>
+  
+
+
+
+
+
+
+
+<div id="snow" ></div>
+
+
+
+  <script src='./shader.js'></script>
+  <script  src="./script.js"></script>
+  <script src="./aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1200 // Animation duration
+    });
+
+    const openModal = document.getElementById('openModal');
+    const closeModal = document.getElementById('closeModal');
+    const minimizeModal = document.getElementById('minimize');
+    const overlay = document.getElementById('overlay');
+    const modal = document.getElementById('modal');
+
+    openModal.addEventListener('click', function(e) {
+        e.preventDefault();
+        overlay.style.display = 'block';
+        overlay.style.opacity = '1'
+        modal.style.display = 'block';
+
+        // Manually add the AOS animation class
+        modal.classList.remove('aos-animate');
+        setTimeout(() => {
+            modal.classList.add('aos-animate');
+        }, 10); // Delay to ensure the class is re-applied for animation
+    });
+
+    closeModal.addEventListener('click', function() {
+        // Manually remove the AOS animation class
+        modal.classList.remove('aos-animate');
+        
+        setTimeout(() => {
+            overlay.style.opacity = '0'
+            overlay.style.display = 'none';
+  
+            modal.style.display = 'none';
+            modal.classList.add('aos-animate'); // Reset the class for next time
+        }, 500); // Match the duration of the animation
+    });
+
+    minimizeModal.addEventListener('click', function() {
+        // Manually remove the AOS animation class
+        modal.classList.remove('aos-animate');
+        
+        setTimeout(() => {
+            overlay.style.opacity = '0'
+            overlay.style.display = 'none';
+  
+            modal.style.display = 'none';
+            modal.classList.add('aos-animate'); // Reset the class for next time
+        }, 500); // Match the duration of the animation
+    });
+
+    overlay.addEventListener('click', function() {
+        closeModal.click();
+    });
+</script>
+  
+  
+
+  <!-- <script src="pureCounter.js"></script> -->
+  <!-- <script>
+
+new PureCounter();
+  </script> -->
+
+</body>
+</html>
